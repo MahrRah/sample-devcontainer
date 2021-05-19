@@ -1,0 +1,30 @@
+{
+    "name": "Identity Lab CSE ONE-WEEK",
+    "build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"runArgs": [
+		"--network",
+		"host",
+	],
+    "mounts": [
+		// Keep command history 
+		"source=ostf-bashhistory,target=/commandhistory,type=volume",
+		// Use hosts docker socket
+		"source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+	],
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "/bin/bash"
+	},
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "josefpihrt-vscode.roslynator",
+        "formulahendry.dotnet-test-explorer",
+        "fernandoescolar.vscode-solution-explorer",
+		"eamodio.gitlens",
+		"ms-vscode.powershell",
+		"shd101wyy.markdown-preview-enhanced"
+    ]
+}
