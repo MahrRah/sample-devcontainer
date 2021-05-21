@@ -1,5 +1,5 @@
 {
-    "name": "Identity Lab CSE ONE-WEEK",
+    "name": "C# devcontainer",
     "build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
@@ -23,8 +23,13 @@
         "josefpihrt-vscode.roslynator",
         "formulahendry.dotnet-test-explorer",
         "fernandoescolar.vscode-solution-explorer",
-		"eamodio.gitlens",
-		"ms-vscode.powershell",
-		"shd101wyy.markdown-preview-enhanced"
+		"ms-vsliveshare.vsliveshare",
+		"yzhang.markdown-all-in-one",
+		"davidanson.vscode-markdownlint",
+		"redhat.vscode-yaml",
+		"treetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker",
+		"foxundermoon.shell-format",
+		"timonwong.shellcheck",
     ]
 }

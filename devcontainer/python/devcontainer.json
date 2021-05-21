@@ -1,5 +1,5 @@
 {
-    "name": "Identity Lab CSE ONE-WEEK",
+    "name": "Python Devcontainer",
     "build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."

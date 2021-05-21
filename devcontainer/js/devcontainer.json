@@ -1,5 +1,5 @@
 {
-    "name": "Identity Lab CSE ONE-WEEK",
+    "name": "JS Devcontainer",
     "build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
@@ -19,7 +19,6 @@
 		"terminal.integrated.defaultProfile.linux": "/bin/bash"
 	},
     "extensions": [
-		"ms-python.python",
 		"ms-azuretools.vscode-docker",
 		"ms-vsliveshare.vsliveshare",
 		"yzhang.markdown-all-in-one",
@@ -28,7 +27,6 @@
 		"treetsidesoftware.code-spell-checker",
 		"streetsidesoftware.code-spell-checker",
 		"foxundermoon.shell-format",
-		"timonwong.shellcheck",
-		"mikestead.dotenv"
+		"timonwong.shellcheck"
 	]
 }
